@@ -1,3 +1,13 @@
+# instalaciones 
+
+npm install react-icons
+npm install react-icons
+npm install react-country-flag
+npm i react-flags-select
+
+#1C2833
+#49B158
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

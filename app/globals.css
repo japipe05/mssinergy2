@@ -17,11 +17,20 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Eras Light ITC', sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+/* globals.css */
+
+@font-face {
+  font-family: 'Eras Light ITC';
+  src: url('/path/to/eras-light-itc.woff2') format('woff2'),
+       url('/path/to/eras-light-itc.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
 }
