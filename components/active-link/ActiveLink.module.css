@@ -1,0 +1,26 @@
+/* D:\Workspace_git\Next\mssinergy\components\active-link\ActiveLink.module.css */
+
+.link {
+    @apply mr-4 transition-all text-black font-light; /* Utilidades de Tailwind */
+    text-decoration: none;
+    border-bottom-width: 2px;
+    border-bottom-color: transparent;
+}
+
+.link:hover {
+    border-bottom-color: #49b158; /* Subrayado verde al hacer hover */
+}
+
+.active-link {
+    @apply pb-1;
+    color: black;
+    border-bottom-width: 2px;
+    border-bottom-color: #49b158;
+    text-decoration: none;
+}
+
+/* Nueva clase para enlaces sin subrayado verde */
+.no-underline-link {
+    @apply mr-4 transition-all text-black font-light; /* Utilidades de Tailwind */
+    text-decoration: none; /* Sin subrayado */
+}
