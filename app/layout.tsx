@@ -1,18 +1,16 @@
+import React from "react";
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
-import { Navbar } from "@/components";
+import { Montserrat } from "next/font/google";
+import "./css/globals.css";
+import { Flowbite, ThemeModeScript } from "flowbite-react";
+import customTheme from "@/utils/theme/custom-theme";
+import { CustomizerContextProvider } from "./context/customizerContext";
+import "./api/index"
+import '../utils/i18n';
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+const montserrat = Montserrat({ subsets: ["latin"] });
+
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -26,12 +24,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <Navbar/>
-        {children}
-      </body>
-    </html>
+    <head>
+      <ThemeModeScript />
+    </head>
+    <body className={`${montserrat.className}`} >
+    <Flowbite theme={{ theme: customTheme }}>
+      <CustomizerContextProvider>
+          {children}
+      </CustomizerContextProvider>
+      </Flowbite>
+    </body>
+  </html>
   );
 }

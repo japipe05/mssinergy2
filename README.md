@@ -4,6 +4,9 @@ npm install react-icons
 npm install react-icons
 npm install react-country-flag
 npm i react-flags-select
+npm install flowbite flowbite-react
+npm install react-i18next i18next
+
 
 #1C2833
 #49B158
