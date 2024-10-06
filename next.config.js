@@ -6,8 +6,6 @@ const nextConfig = {
     distDir: 'dist',
     images:{
     unoptimized: true,
-    },
-    basePath: '/mssinergy',
-    assetPrefix: '/mssinergy/',
+    }
 }
 module.exports = nextConfig

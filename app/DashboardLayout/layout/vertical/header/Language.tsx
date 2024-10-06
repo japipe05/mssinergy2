@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 const Languages = [
   {
     flagname: "Español",
-    icon: "public/images/flag/icon-flag-es.svg",
+    icon: "mssinergy/public/images/flag/icon-flag-es.svg",
     value: "es",
   },
   {
