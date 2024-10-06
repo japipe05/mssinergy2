@@ -2,8 +2,7 @@
 * @type {import('next').NextConfig}
 */
 const nextConfig = {
-    basePath: "/mssinergy",
-    assetPrefix: "/mssinergy/images",
+    basePath: '/mssinergy',
     output: 'export',
     distDir: 'dist',
     images:{
