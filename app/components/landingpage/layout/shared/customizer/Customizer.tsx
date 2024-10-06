@@ -2,7 +2,7 @@
 import React , { useContext } from "react";
 import { Button, Drawer, RangeSlider, Tooltip } from "flowbite-react";
 import { Icon } from "@iconify/react";
-import { CustomizerContext } from "../../../../context/customizerContext";
+import { CustomizerContext } from "../../../../../context/customizerContext";
 import { useState } from "react";
 import { IconCheck, IconSettings } from "@tabler/icons-react";
 import SimpleBar from "simplebar-react";
