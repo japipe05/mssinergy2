@@ -7,6 +7,7 @@ const nextConfig = {
     images:{
     unoptimized: true,
     },
-    basePath: '/mssinergy'
+    basePath: '/mssinergy',
+    assetPrefix: '/mssinergy/',
 }
 module.exports = nextConfig
