@@ -4,8 +4,8 @@ import React, { useState, useEffect, useRef } from "react";
 import Slider from "react-slick";
 
 // Carousel slider data
-import SliderData from "./SliderData";
-
+import sliders from "./SliderData";
+const {  SliderData } = sliders;
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
