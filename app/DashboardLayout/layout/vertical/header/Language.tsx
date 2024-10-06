@@ -13,7 +13,7 @@ const Languages = [
   },
   {
     flagname: "Inglés",
-    icon: "/images/flag/icon-flag-en.svg",
+    icon: "public/images/flag/icon-flag-en.svg",
     value: "en",
   },
   {
