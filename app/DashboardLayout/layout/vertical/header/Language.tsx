@@ -4,7 +4,7 @@ import { Dropdown } from "flowbite-react";
 import Image from "next/image";
 import React, { useContext, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-
+console.log(process.env.NEXT_PUBLIC_BASE_PATH)
 const Languages = [
   {
     flagname: "Español",
