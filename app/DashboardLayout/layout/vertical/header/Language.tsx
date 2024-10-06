@@ -7,9 +7,19 @@ import { useTranslation } from "react-i18next";
 
 const Languages = [
   {
-    flagname: "English",
+    flagname: "Español",
+    icon: "/images/flag/icon-flag-es.svg",
+    value: "es",
+  },
+  {
+    flagname: "Inglés",
     icon: "/images/flag/icon-flag-en.svg",
     value: "en",
+  },
+  {
+    flagname: "Portugués",
+    icon: "/images/flag/icon-flag-pt.svg",
+    value: "pt",
   },
   {
     flagname: "Chinese",

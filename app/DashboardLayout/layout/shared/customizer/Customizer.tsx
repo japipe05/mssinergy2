@@ -86,6 +86,11 @@ export const Customizer = () => {
       bgColor: "#FA896B",
       disp: "ORANGE_THEME",
     },
+    {
+      id: 7,
+      bgColor: "#49B158",
+      disp: "GREE_THEMEMS", //Felipe Rodriguez 20241005
+    },
   ];
 
   return (

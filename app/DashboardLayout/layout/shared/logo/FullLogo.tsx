@@ -17,7 +17,7 @@ const FullLogo = () => {
     >
       <b className="text-nowrap logo-img flex items-center gap-3">
         {/*You can put here icon as well // <i class="wi wi-sunset"></i> //*/}
-        {/* Dark Logo icon */}
+        {/* Dark Logo icon 
         <Image
           src={darkIcon}
           alt="homepage"
@@ -27,15 +27,15 @@ const FullLogo = () => {
           src={lightIcon}
           alt="homepage"
           className="dark-logo hidden dark:block"
-        />
+        />*/}
         {/* Light Logo icon */}
         <Image
-          src={darkText}
+          src={lightText}
           alt="homepage"
           className={`light-logo block dark:hidden shrink-0`}
         />
         <Image
-          src={lightText}
+          src={darkText}
           alt="homepage"
           className={`light-logo dark:block hidden shrink-0`}
         />
