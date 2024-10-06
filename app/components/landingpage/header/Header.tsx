@@ -28,9 +28,6 @@ const Header = () => {
             {t("Quíenes somos")}
             </Navbar.Link>
             <Navbar.Link as={Link} href="#Inicio" >
-            {t("Servicios")}
-            </Navbar.Link>
-            <Navbar.Link as={Link} href="#Inicio" >
             {t("Metrología")}
             </Navbar.Link>
             <Navbar.Link as={Link} href="#prueba">
