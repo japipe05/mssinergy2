@@ -7,6 +7,7 @@ import bannerWidget4 from "/public/images/landingpage/background/calificaicon_is
 import bannerWidget5 from "/public/images/landingpage/background/banner-widget-a.jpeg";
 import { Button } from "flowbite-react";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 const banner = () => {
 
   const [showVideo, setShowVideo] = useState(false);
@@ -17,7 +18,7 @@ const banner = () => {
   const closeVideo = () => {
     setShowVideo(false);
   };
-
+  const { t } = useTranslation();
   return (
     <>
 <div className="banner dark:bg-dark">
@@ -30,8 +31,8 @@ const banner = () => {
             data-aos="fade-up"
             data-aos-delay="200"
             data-aos-duration="1000"
-          >
-            <span className="text-primary-grediant">Bienvenido A</span>
+          > 
+            <span className="text-primary-grediant">{t("Bienvenido A")} </span>
             Ms Sinergy
           </h1>
           <span
@@ -40,7 +41,7 @@ const banner = () => {
             data-aos-delay="300"
             data-aos-duration="1100"
           >
-            Dedicada a la creación de valor a partir del servicio de calificación de equipos isotérmicos y metrología...
+            {t("Dedicada a la creación de valor a partir del servicio de calificación de equipos isotérmicos y metrología")}
           </span>
           <div className="flex items-center sm:flex-row flex-col gap-3 mt-4 pt-4">
             <a
@@ -48,7 +49,7 @@ const banner = () => {
               className="btn btn-primary py-3.5 px-12 text-base rounded-pill scroll-link"
               target="_blank"
             >
-              Visualizar Catalogo
+              {t("Visualizar Catálogo")}
             </a>
 
 
@@ -58,7 +59,7 @@ const banner = () => {
         onClick={handleButtonClick}
         className="rounded-full bg-white py-3.5 px-12 shadow-md text-body font-medium text-base"
       >
-        Video
+        {t("Video")}
       </button>
 
       {/* Modal que se muestra cuando se reproduce el video */}
@@ -86,19 +87,16 @@ const banner = () => {
         </div>
       )}
     </div>
-         
-
-
-
+        
           </div>
           <div className="grid grid-cols-12 mt-12 lg:mb-0">
             <div className="sm:col-span-3 col-span-12 lg:col-span-5">
               <h4 className="mb-3 font-bold text-dark dark:text-white text-[40px]">10+</h4>
-              <span className="text-body dark:text-darkmuted textt-sm font-medium" >Clientes</span>
+              <span className="text-body dark:text-darkmuted textt-sm font-medium" >{t("Clientes")}</span>
             </div>
             <div className="col-sm-3 col-6 col-lg-5">
               <h4 className="mb-3 font-bold text-dark dark:text-white text-[40px]">4+</h4>
-              <span className="text-body dark:text-darkmuted textt-sm font-medium text-nowrap" >Constitución</span>
+              <span className="text-body dark:text-darkmuted textt-sm font-medium text-nowrap" >{t("Clientes")}</span>
             </div>
           </div>
         </div>

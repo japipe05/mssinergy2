@@ -1,19 +1,29 @@
 
+"use client";
 import React, { useEffect } from "react";
 import Landingpage from "../components/landingpage";
 import type { Metadata } from "next";
-export const metadata: Metadata = {
-  title: "Ms Sinergy",
-  description: "Pagina principal de Ms sinergy",
-};
+import LpBanners from "@/app/components/landingpage/banner/banner";
+import { Flowbite } from "flowbite-react";
+import customTheme from "@/utils/theme/custom-theme";
 
-const page = () => {
+export default function page()  {
   
   return (
     <>
-      <Landingpage/>
+      <Flowbite theme={{ theme: customTheme }}>
+        <div className="landingpage">
+        <LpBanners />
+          {/*
+          <ProductDemos />
+          <LpBanners />
+          <AppsDemos/>
+          <AllFeatures />
+          <Ticket />
+          <Footer />
+          */}
+        </div>
+      </Flowbite>
     </>
   );
 };
-
-export default page;
