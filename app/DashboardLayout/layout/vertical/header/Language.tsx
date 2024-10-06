@@ -4,7 +4,6 @@ import { Dropdown } from "flowbite-react";
 import Image from "next/image";
 import React, { useContext, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-console.log('NEXT_PUBLIC_IMAGE_PATH:', process.env.NEXT_PUBLIC_IMAGE_PATH);
 
 const Languages = [
   {
@@ -14,7 +13,7 @@ const Languages = [
   },
   {
     flagname: "Inglés",
-    icon: `${process.env.NEXT_PUBLIC_IMAGE_PATH}/flag/icon-flag-en.svg`,
+    icon: `/mssinergy/images/flag/icon-flag-en.svg`,
     value: "en",
   },
   {
