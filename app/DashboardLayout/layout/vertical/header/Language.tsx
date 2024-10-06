@@ -13,7 +13,7 @@ const Languages = [
   },
   {
     flagname: "Inglés",
-    icon: "/mssinergy/public/images/flag/icon-flag-en.svg",
+    icon: "/mssinergy/images/flag/icon-flag-en.svg",
     value: "en",
   },
   {
