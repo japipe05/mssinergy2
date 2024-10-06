@@ -14,7 +14,17 @@ npm warn deprecated react-jvectormap@0.0.16: This package is deprecated. Please 
 #1C2833
 #49B158
 
+desplegar en hositnger
+> npm run build
+
+
+# url .svg
+https://www.svgviewer.dev/s/465619/chemical-experiment-lab-laboratory-microscope-research
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
 
 ## Getting Started
 

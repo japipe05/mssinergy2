@@ -22,7 +22,8 @@ const Landingpage = () => {
       <Flowbite theme={{ theme: customTheme }}>
         <div className="landingpage">
           <LpHeader />
-          {/*<ProductDemos />
+          {/*<LpBanners />
+          <ProductDemos />
           <LpBanners />
           <AppsDemos/>
           <AllFeatures />
