@@ -3,6 +3,7 @@
 */
 const nextConfig = {
     basePath: '/mssinergy',
+    assetPrefix: '/mssinergy',
     output: 'export',
     distDir: 'dist',
     images:{
