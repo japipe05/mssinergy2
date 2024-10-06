@@ -1,14 +1,9 @@
 /**
 * @type {import('next').NextConfig}
 */
-let basePath = '';
-
-if (process.env.APP_ENTORNO === 'PRODUCCION') {
-  basePath = process.env.NEXT_PUBLIC_BASE_PATH;
-}
 
 const nextConfig = {
-    basePath: basePath,
+    basePath: process.env.NEXT_PUBLIC_BASE_PATH||'',
     output: 'export',
     distDir: 'dist',
     images:{
