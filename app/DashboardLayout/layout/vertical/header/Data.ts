@@ -12,14 +12,56 @@ interface appsLinkType {
 const appsLink: appsLinkType[] = [
   {
     href: "/apps/chats",
-    title: "Chat Application",
-    subtext: "New messages arrived",
+    title: "Servicio de Calibraciones",
+    subtext: "",
+    avatar: "/images/svgs/icon-dd-chat.svg",
+  },
+  {
+    href: "/apps/chats",
+    title: "Laboratorio de temperatura",
+    subtext: "",
+    avatar: "/images/svgs/icon-dd-chat.svg",
+  },
+  {
+    href: "/apps/chats",
+    title: "Laboratorio de humedad relativa",
+    subtext: "",
+    avatar: "/images/svgs/icon-dd-chat.svg",
+  },
+  {
+    href: "/apps/chats",
+    title: "Calificación de sistemas de apoyo crítico",
+    subtext: "",
+    avatar: "/images/svgs/icon-dd-chat.svg",
+  },
+  {
+    href: "/apps/chats",
+    title: "Calificaciones isotérmicos",
+    subtext: "",
+    avatar: "/images/svgs/icon-dd-chat.svg",
+  },
+  {
+    href: "/apps/chats",
+    title: "Mapeos Térmicos",
+    subtext: "",
+    avatar: "/images/svgs/icon-dd-chat.svg",
+  },
+  {
+    href: "/apps/chats",
+    title: "Calificación de vehículos",
+    subtext: "",
     avatar: "/images/svgs/icon-dd-chat.svg",
   },
   {
     href: "/apps/ecommerce/shop",
-    title: "eCommerce App",
-    subtext: "New stock available",
+    title: "Esterilizaciones",
+    subtext: "",
+    avatar: "/images/svgs/icon-dd-cart.svg",
+  },
+  {
+    href: "/apps/ecommerce/shop",
+    title: "Servicios de consultoría",
+    subtext: "",
     avatar: "/images/svgs/icon-dd-cart.svg",
   }
 ];
@@ -32,35 +74,19 @@ interface LinkType {
 const pageLinks: LinkType[] = [
   {
     href: "/theme-pages/pricing",
-    title: "Pricing Page",
+    title: "ISO 9001",
   },
   {
     href: "/auth/auth1/login",
-    title: "Authentication Design",
+    title: "ISO 17025",
   },
   {
     href: "/auth/auth1/register",
-    title: "Register Now",
+    title: "Informes OMS",
   },
   {
-    href: "/auth/error",
-    title: "404 Error Page",
-  },
-  {
-    href: "/apps/notes",
-    title: "Notes App",
-  },
-  {
-    href: "/apps/user-profile/profile",
-    title: "User Application",
-  },
-  {
-    href: "/apps/blog/post",
-    title: "Blog Design",
-  },
-  {
-    href: "/apps/ecommerce/checkout",
-    title: "Shopping Cart",
+    href: "/auth/auth1/register",
+    title: "Resoluciones Invima",
   },
 ];
 

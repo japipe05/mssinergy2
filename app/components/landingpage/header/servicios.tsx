@@ -7,8 +7,10 @@ import * as AppsData from "@/app/DashboardLayout/layout/vertical/header/Data";
 import { IconChevronDown, IconHelp } from "@tabler/icons-react";
 import Quicklinks from "@/app/DashboardLayout/layout/vertical/header/Quicklinks";
 import { Button, Dropdown } from "flowbite-react";
-
+import { useTranslation } from "react-i18next";
+  
 const ServicioMenu = () => {
+  const { t } = useTranslation();
   return (
 
     <div className="relative group/menu">
@@ -19,7 +21,8 @@ const ServicioMenu = () => {
       renderTrigger={() => (
         <div className="relative">
           <span className="py-1.5 px-4 text-darkbody dark:text-darkmuted text-base text-ld hover:text-primary hover:bg-lightprimary rounded-full flex justify-center items-center cursor-pointer group-hover/menu:bg-lightprimary group-hover/menu:text-primary">
-            Servicios <IconChevronDown className="ms-1" size={15} />
+            {t("Servicios")}
+             <IconChevronDown className="ms-1" size={15} />
           </span>
         </div>
       )}
@@ -48,7 +51,7 @@ const ServicioMenu = () => {
                       </span>
                       <div>
                         <h6 className="font-semibold text-sm text-ld group-hover:text-primary mb-1 ">
-                          {links.title}
+                          {t(links.title)}
                         </h6>
                         <p className="text-xs text-link dark:text-darkmuted opacity-90 font-medium">
                           {links.subtext}
@@ -59,6 +62,7 @@ const ServicioMenu = () => {
                 </ul>
               </div>
             ))}
+{/*
             <div className="col-span-12 md:col-span-12 border-t border-border dark:border-darkborder hidden lg:flex items-stretch pt-4 pr-4">
               <div className="flex items-center justify-between w-full">
                 <div className="flex items-center text-dark dark:text-darkmuted">
@@ -74,20 +78,23 @@ const ServicioMenu = () => {
                 <Button color={"primary"}>Check</Button>
               </div>
             </div>
+            */}
           </div>
         </div>
+        
         <div className="lg:col-span-4 col-span-12  flex items-strech">
           <Quicklinks />
         </div>
+      
       </div>
     </Dropdown>
 
-    {/* <div
+     <div
       id="dropdownHoverPages"
       className="z-10 hidden bg-white dark:bg-dark dropdown w-[900px] left-0"
     >
     
-    </div> */}
+    </div> 
   </div>
   );
 };

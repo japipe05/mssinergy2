@@ -19,7 +19,7 @@ body{
     --color-body:#67757c;
     --color-darkbody:#323743;
     --color-muted:#67757cbf;
-    --color-darkmuted:#eaeff499;
+    --color-darkmuted:#fff;/*--Felipe Rodriguez 20241005*/
     --color-darklink:#000000a6;
     --color-lightgray:#f4f6f9;
     --color-graylight:#e9edf2;
@@ -44,6 +44,18 @@ body{
     --color-primary-opacity-40: #49B15840;
     --color-primary-opacity-80: #49B15880;
     --color-primary-emphasis:#186a3b;   
+    --color-secondary: #545b62;
+    --color-secondary-emphasis:#4e545a;
+    --color-lightprimary:#49B15820;
+    --color-lightsecondary:#545b6220; 
+
+}
+/*--Felipe Rodriguez 20241005*/
+[data-color-theme="GREE_THEMEMS"]{
+    --color-primary: #49B158;
+    --color-primary-opacity-40: #49B15840;
+    --color-primary-opacity-80: #49B15880;
+    --color-primary-emphasis: #186a3b;   
     --color-secondary: #545b62;
     --color-secondary-emphasis:#4e545a;
     --color-lightprimary:#49B15820;
