@@ -3,6 +3,7 @@ npm warn deprecated react-jvectormap@0.0.16: This package is deprecated. Please 
 
 
 felipe
+felipe
 
    We detected TypeScript in your project and reconfigured your tsconfig.json file for you. Strict-mode is set to
  false by default.
