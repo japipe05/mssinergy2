@@ -1,17 +1,12 @@
 validar
 npm warn deprecated react-jvectormap@0.0.16: This package is deprecated. Please start using @react-jvectormap/core instead
 
-
-felipe
-felipe
-
    We detected TypeScript in your project and reconfigured your tsconfig.json file for you. Strict-mode is set to
  false by default.
    The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
 
         - include was updated to add 'dist/types/**/*.ts'
-        
- 
+
 #1C2833
 #49B158
 
@@ -30,7 +25,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 First, run the development server:
-
+felipe boorrar
 ```bash
 npm run dev
 # or
