@@ -12,8 +12,7 @@ const Vision = () => {
           <div className="flex flex-wrap items-center">
             {/* Texto */}
             <div
-              className="w-full md:w-7/12 pl-16 pr-16" // Incrementado el espacio a 12 unidades
-              data-aos="fade-up"
+              className="w-full md:w-7/12 pl-16 pr-16" 
               data-aos-duration="500"
             >
               <h1
