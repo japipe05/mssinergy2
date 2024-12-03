@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React,{ useState }  from "react";
+import React,{ useState }  from "react"; 
 import bannerWidget1 from "/public/images/landingpage/background/banner-widget-c.jpeg";
 import bannerWidget2 from "/public/images/landingpage/background/banner-widget-b.jpeg";
 import bannerWidget3 from "/public/images/landingpage/background/banner-widget-e.jpeg";
