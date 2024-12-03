@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React,{ useState }  from "react";
-import bannerWidget1 from "/public/images/landingpage/background/vision.jpg";
+import bannerWidget1 from "/public/images/landingpage/background/vision1.jpg";
 import { useTranslation } from "react-i18next";
 
 const Vision = () => {
