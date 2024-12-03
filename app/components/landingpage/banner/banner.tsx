@@ -16,7 +16,7 @@ const banner = () => {
     setShowVideo(!showVideo);
   };
   const closeVideo = () => {
-    setShowVideo(false);
+    setShowVideo(false); 
   };
   const { t } = useTranslation();
   return (
